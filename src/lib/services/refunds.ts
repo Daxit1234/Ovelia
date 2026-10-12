@@ -106,8 +106,23 @@ async function applyRefundToOrder(refund: Pick<RefundDoc, "_id" | "orderId" | "p
  */
 export async function approveRefund(refundId: string, approver: RefundActor, options: { manualReference?: string } = {}): Promise<RefundDoc> {
   await connectDB();
+  const pending = await Refund.findOne({ _id: refundId, status: { $in: ["pending_approval", "failed"] } }, { orderId: 1, amount: 1, status: 1 }).lean();
+  if (!pending) throw new AppError("This refund has already been processed or is not awaiting approval.");
+  // Re-check the limit: other refunds may have completed since this one was
+  // requested (for example while a failed refund waited to be retried).
+  const [paid, others] = await Promise.all([
+    Order.findById(pending.orderId, { "pricing.amountPaid": 1 }).lean(),
+    Refund.aggregate<{ total: number }>([
+      { $match: { orderId: pending.orderId, _id: { $ne: pending._id }, status: { $in: [...OPEN_REFUND_STATUSES] } } },
+      { $group: { _id: null, total: { $sum: "$amount" } } },
+    ]),
+  ]);
+  const available = Math.max(0, (paid?.pricing?.amountPaid ?? 0) - (others[0]?.total ?? 0));
+  if (pending.amount > available) {
+    throw new AppError(`This refund of ${formatINR(pending.amount)} is more than the ${formatINR(available)} still refundable on the order.`, "REFUND_LIMIT");
+  }
   const refund = await Refund.findOneAndUpdate(
-    { _id: refundId, status: { $in: ["pending_approval", "failed"] } },
+    { _id: pending._id, status: pending.status },
     { $set: { status: "processing", approvedBy: { id: approver.id, name: approver.name }, failureReason: "" } },
     { returnDocument: "after" },
   ).lean();

@@ -1,17 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Controller, type FieldValues, type Path, type PathValue, type UseFormReturn } from "react-hook-form";
+import { Controller, type FieldValues, type Path, type PathValue } from "react-hook-form";
 import { MapPin } from "lucide-react";
 import { lookupPincodeAction } from "@/app/actions/catalog";
 import { Field, FieldError, FieldLabel } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { type AnyForm } from "@/lib/forms";
 import { INDIAN_STATE_NAMES } from "@/lib/india";
-
-/** A form of any shape; transformed (resolver output) values are irrelevant to these inputs. */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export type AnyForm<T extends FieldValues> = UseFormReturn<T, any, any>;
 
 function errorAt(errors: unknown, path: string): { message?: string } | undefined {
   return path.split(".").reduce<unknown>((acc, key) => (acc && typeof acc === "object" ? (acc as Record<string, unknown>)[key] : undefined), errors) as

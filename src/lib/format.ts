@@ -65,3 +65,18 @@ export function formatSize(value: number, unit: string): string {
   if (unit === "pcs") return `${value} ${value === 1 ? "pc" : "pcs"}`;
   return `${value} ${unit}`;
 }
+
+/** Parses a datetime-local value ("YYYY-MM-DDTHH:mm") entered in IST. */
+export function parseIstDateTime(value: string): Date | null {
+  if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(value)) return null;
+  const date = new Date(`${value}:00+05:30`);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+/** Formats a date as a datetime-local value in IST. */
+export function toIstDateTimeInput(value: Date | null | undefined): string {
+  if (!value) return "";
+  const parts = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(value);
+  const get = (type: string) => parts.find((p) => p.type === type)?.value ?? "00";
+  return `${get("year")}-${get("month")}-${get("day")}T${get("hour")}:${get("minute")}`;
+}

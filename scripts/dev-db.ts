@@ -6,11 +6,13 @@
  *   npm run db:dev        -> mongodb://127.0.0.1:27017/ovelia?replicaSet=ovelia-rs
  */
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { MongoMemoryReplSet } from "mongodb-memory-server";
 
 const port = Number(process.env.DEV_DB_PORT ?? 27017);
-const dbPath = path.resolve(process.cwd(), ".mongo-data");
+// Kept outside the project so build tools never scan live database files.
+const dbPath = process.env.DEV_DB_PATH ?? path.join(os.homedir(), ".ovelia", "mongo-data");
 fs.mkdirSync(dbPath, { recursive: true });
 
 async function main() {

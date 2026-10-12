@@ -122,9 +122,9 @@ export function CheckoutClient({ user, addresses, settings }: { user: CheckoutUs
     },
   });
 
-  const [shippingMethod, paymentMethod, state, email, phone, billingSame] = useWatch({
+  const [shippingMethod, paymentMethod, state, email, phone, billingSame, saveAddress] = useWatch({
     control: form.control,
-    name: ["shippingMethod", "paymentMethod", "shippingAddress.state", "contact.email", "contact.phone", "billingSameAsShipping"],
+    name: ["shippingMethod", "paymentMethod", "shippingAddress.state", "contact.email", "contact.phone", "billingSameAsShipping", "saveAddress"],
   });
 
   const current = quote ?? cart;
@@ -150,7 +150,7 @@ export function CheckoutClient({ user, addresses, settings }: { user: CheckoutUs
     if (!ready || cart.lines.length === 0) return;
     const timer = setTimeout(() => void requote(), 350);
     return () => clearTimeout(timer);
-  }, [ready, cart.couponCode, cart.itemCount, cart.totals.merchandiseTotal, requote]);
+  }, [ready, cart.couponCode, cart.itemCount, cart.lines.length, cart.totals.merchandiseTotal, requote]);
 
   // Keep the payment method valid as options change.
   useEffect(() => {
@@ -218,7 +218,7 @@ export function CheckoutClient({ user, addresses, settings }: { user: CheckoutUs
     );
   };
 
-  const onSubmit = form.handleSubmit(async (values) => {
+  const placeOrder = async (values: z.output<typeof checkoutFormSchema>) => {
     if (!quote || quoting) {
       toast.info("Updating your total, please try again in a moment.");
       return;
@@ -263,7 +263,9 @@ export function CheckoutClient({ user, addresses, settings }: { user: CheckoutUs
       await refresh();
       router.push(result.data.redirectTo);
     }
-  });
+  };
+  // handleSubmit runs at submit time, so the refs read by placeOrder are never touched during render.
+  const onSubmit = (event: React.FormEvent<HTMLFormElement>) => form.handleSubmit(placeOrder)(event);
 
   if (!ready) {
     return (
@@ -353,7 +355,7 @@ export function CheckoutClient({ user, addresses, settings }: { user: CheckoutUs
               <AddressFields form={form} prefix="shippingAddress" section="shipping" />
               {user ? (
                 <label className="mt-4 flex items-center gap-2.5 text-sm">
-                  <Checkbox checked={form.watch("saveAddress")} onCheckedChange={(c) => form.setValue("saveAddress", c === true)} />
+                  <Checkbox checked={saveAddress} onCheckedChange={(c) => form.setValue("saveAddress", c === true)} />
                   Save this address to my account
                 </label>
               ) : null}

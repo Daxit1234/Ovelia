@@ -24,7 +24,6 @@
     "cloudinary": "^2.11.0",
     "cmdk": "^1.1.1",
     "cn": "^0.4.0",
-    "embla-carousel-react": "^8.6.0",
     "lucide-react": "^1.55.0",
     "mongodb": "^7.7.0",
     "mongoose": "^9.11.1",

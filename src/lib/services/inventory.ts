@@ -280,9 +280,12 @@ export async function adjustStock(input: {
   quantity: number;
   reason: string;
   actor: InventoryActor;
+  /** Ledger type; "import" for CSV imports. */
+  movementType?: "adjustment" | "import";
 }): Promise<VariantDoc> {
   await connectDB();
   if (!Number.isInteger(input.quantity) || input.quantity < 0) throw new AppError("Quantity must be a whole number of 0 or more");
+  const movementType = input.movementType ?? "adjustment";
   const line = { productId: input.productId, variantId: input.variantId, quantity: Math.max(1, input.quantity) };
 
   if (input.mode === "set") {
@@ -299,7 +302,7 @@ export async function adjustStock(input: {
       if (delta === 0) return previous;
       const result = await updateVariant(line, { stock: previous.stock }, { stock: delta }, null);
       if (result) {
-        await recordMovement("adjustment", line, result, { stock: delta, reserved: 0 }, { reason: input.reason, actor: input.actor }, null);
+        await recordMovement(movementType, line, result, { stock: delta, reserved: 0 }, { reason: input.reason, actor: input.actor }, null);
         return result.variant;
       }
     }
@@ -312,7 +315,7 @@ export async function adjustStock(input: {
   if (!result) {
     throw new AppError(delta < 0 ? "Cannot remove more units than are in stock" : "Variant not found");
   }
-  await recordMovement("adjustment", line, result, { stock: delta, reserved: 0 }, { reason: input.reason, actor: input.actor }, null);
+  await recordMovement(movementType, line, result, { stock: delta, reserved: 0 }, { reason: input.reason, actor: input.actor }, null);
   return result.variant;
 }
 

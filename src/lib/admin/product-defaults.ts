@@ -1,0 +1,46 @@
+import type { ProductInput } from "@/lib/validation/product";
+
+export const NEW_VARIANT: ProductInput["variants"][number] = {
+  label: "",
+  sku: "",
+  sizeValue: 500,
+  sizeUnit: "ml",
+  mrp: 0,
+  price: 0,
+  costPrice: 0,
+  stock: 0,
+  lowStockThreshold: 10,
+  weightGrams: 500,
+  isActive: true,
+};
+
+export const EMPTY_PRODUCT: ProductInput = {
+  name: "",
+  slug: "",
+  shortDescription: "",
+  description: "",
+  categoryId: "",
+  images: [],
+  variants: [{ ...NEW_VARIANT }],
+  highlights: [],
+  specifications: [],
+  usageInstructions: "",
+  ingredients: "",
+  safetyInformation:
+    "Keep out of reach of children and pets. Avoid contact with eyes; in case of contact, rinse thoroughly with clean water. Do not swallow. Do not mix with other cleaning products.",
+  shippingInfo: "",
+  returnInfo: "",
+  fragrance: "",
+  tags: [],
+  status: "draft",
+  isFeatured: false,
+  isBestSeller: false,
+  isNewArrival: true,
+  reviewsEnabled: true,
+  relatedProductIds: [],
+  fbtProductIds: [],
+  hsnCode: "3402",
+  gstRate: 18,
+  seoTitle: "",
+  seoDescription: "",
+};

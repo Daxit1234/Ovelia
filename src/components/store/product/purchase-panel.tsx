@@ -20,11 +20,13 @@ export function PurchasePanel({ product, maxPerOrder }: { product: ProductDetail
   const { add, busy } = useCart();
   const { data: session } = useSession();
   const [variantId, setVariantId] = useState(product.defaultVariantId);
-  const [quantity, setQuantity] = useState(1);
+  const [requestedQuantity, setQuantity] = useState(1);
   const [wishlisted, setWishlisted] = useState(false);
   const [buying, setBuying] = useState(false);
   const variant = product.variants.find((v) => v.id === variantId) ?? product.variants[0];
   const maxQuantity = Math.max(1, Math.min(maxPerOrder, variant?.stock ?? 1));
+  // Clamped during render so switching to a size with less stock never exceeds it.
+  const quantity = Math.min(requestedQuantity, maxQuantity);
 
   useEffect(() => {
     if (!session) return;
@@ -35,7 +37,6 @@ export function PurchasePanel({ product, maxPerOrder }: { product: ProductDetail
     };
   }, [product.id, session]);
 
-  useEffect(() => setQuantity((q) => Math.min(q, maxQuantity)), [maxQuantity]);
 
   if (!variant) return <p className="text-muted-foreground">This product is currently unavailable.</p>;
 

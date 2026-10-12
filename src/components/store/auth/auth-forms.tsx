@@ -2,7 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
-import { useForm, type UseFormRegisterReturn } from "react-hook-form";
+import { useForm, useWatch, type UseFormRegisterReturn } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { CheckCircle2, Eye, EyeOff, Loader2 } from "lucide-react";
@@ -121,6 +121,7 @@ export function RegisterForm() {
     resolver: zodResolver(registerSchema),
     defaultValues: { name: "", email: "", phone: "", password: "", confirmPassword: "", marketingOptIn: false, acceptTerms: false },
   });
+  const [marketingOptIn, acceptTerms] = useWatch({ control: form.control, name: ["marketingOptIn", "acceptTerms"] });
   const errors = form.formState.errors;
   const onSubmit = form.handleSubmit(async (values) => {
     setError(null);
@@ -175,12 +176,12 @@ export function RegisterForm() {
         <FieldError errors={[errors.confirmPassword]} />
       </Field>
       <label className="flex items-start gap-2.5 text-sm">
-        <Checkbox aria-label="Send me offers and product updates by email" checked={form.watch("marketingOptIn")} onCheckedChange={(c) => form.setValue("marketingOptIn", c === true)} className="mt-0.5" />
+        <Checkbox aria-label="Send me offers and product updates by email" checked={marketingOptIn} onCheckedChange={(c) => form.setValue("marketingOptIn", c === true)} className="mt-0.5" />
         <span>Send me offers and product updates by email (optional)</span>
       </label>
       <div>
         <label className="flex items-start gap-2.5 text-sm">
-          <Checkbox aria-label="I agree to the Terms and Privacy Policy" checked={form.watch("acceptTerms")} onCheckedChange={(c) => form.setValue("acceptTerms", c === true, { shouldValidate: true })} className="mt-0.5" />
+          <Checkbox aria-label="I agree to the Terms and Privacy Policy" checked={acceptTerms} onCheckedChange={(c) => form.setValue("acceptTerms", c === true, { shouldValidate: true })} className="mt-0.5" />
           <span>
             I agree to the <AuthLink href="/policies/terms">Terms</AuthLink> and <AuthLink href="/policies/privacy">Privacy Policy</AuthLink>
           </span>

@@ -17,6 +17,7 @@ const nextConfig: NextConfig = {
   partialPrefetching: true,
   poweredByHeader: false,
   serverExternalPackages: ["razorpay", "cloudinary"],
+  outputFileTracingExcludes: { "*": ["./.mongo-data/**/*", "./public/uploads/**/*", "./test-results/**/*", "./scripts/**/*"] },
   turbopack: {
     rules: {
       "*.css": {

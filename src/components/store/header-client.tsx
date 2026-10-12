@@ -31,7 +31,6 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/co
 import { useCart } from "@/components/store/cart-context";
 import { authClient, useSession } from "@/lib/auth/client";
 import { isStaffRole } from "@/lib/domain/roles";
-import { cn } from "@/lib/utils";
 
 interface NavCategory {
   name: string;

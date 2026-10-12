@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { GSTIN_REGEX, INDIAN_STATE_NAMES, PINCODE_REGEX } from "@/lib/india";
+import { linkSchema } from "@/lib/validation/link";
 
 const paise = z.number().int().min(0).max(100_000_000);
 const optionalUrl = z.union([z.literal(""), z.url()]);
@@ -32,7 +33,7 @@ export const storeSectionSchema = z.object({
 export const announcementSectionSchema = z.object({
   enabled: z.boolean(),
   text: z.string().trim().max(160),
-  href: z.string().trim().max(200),
+  href: linkSchema,
 });
 
 export const shippingSectionSchema = z.object({
@@ -93,7 +94,7 @@ export const homepageSectionSchema = z.object({
   heroTitle: z.string().trim().min(1).max(120),
   heroSubtitle: z.string().trim().max(300),
   heroCtaLabel: z.string().trim().min(1).max(40),
-  heroCtaHref: z.string().trim().min(1).max(200),
+  heroCtaHref: linkSchema.refine((v) => v.length > 0, "Enter a link"),
   showBestSellers: z.boolean(),
   showNewArrivals: z.boolean(),
   showBundles: z.boolean(),

@@ -1,6 +1,6 @@
 import "server-only";
 import type { Types } from "mongoose";
-import { connectDB, Order, ReturnRequest, type OrderItemDoc, type ReturnStatus } from "@/lib/db";
+import { connectDB, Order, Refund, ReturnRequest, type OrderItemDoc, type RefundDoc, type ReturnStatus } from "@/lib/db";
 import { ObjectId } from "@/lib/db/model";
 import { invalidateProducts } from "@/lib/cache-tags";
 import { siteUrl } from "@/lib/env";
@@ -11,7 +11,7 @@ import { restockLines } from "@/lib/services/inventory";
 import { notifyAdmins, notifyReturnUpdate } from "@/lib/services/notifications/order-notifications";
 import { templates } from "@/lib/services/notifications/templates";
 import type { OrderActor } from "@/lib/services/orders";
-import { approveRefund, createRefund } from "@/lib/services/refunds";
+import { approveRefund, createRefund, refundableAmount } from "@/lib/services/refunds";
 import { loadSettings } from "@/lib/services/settings";
 import { RETURN_STATUS_LABELS } from "@/lib/domain/returns";
 
@@ -135,6 +135,36 @@ export async function updateReturnRequest(
   const order = await Order.findById(request.orderId).lean();
   if (!order) throw new NotFoundError("Order not found");
 
+  // Check refunds before claiming the transition, so a request that can't be
+  // refunded is rejected without touching the return.
+  const amount = Math.round(opts.refundAmount ?? request.refundAmount);
+  let existingRefund: RefundDoc | null = null;
+  if (action === "refund") {
+    if (order.pricing.amountPaid <= 0) {
+      throw new AppError("This order has no recorded payment to refund. For Cash on Delivery orders, mark the order as delivered first.");
+    }
+    existingRefund = await Refund.findOne({ returnRequestId: request._id, status: { $ne: "rejected" } }).sort({ createdAt: -1 }).lean();
+    const inFlight = existingRefund && ["processing", "processed", "manual"].includes(existingRefund.status);
+    if (!inFlight) {
+      // A pending or failed refund for this return is reused, so its amount doesn't count twice.
+      const available = (await refundableAmount(order)) + (existingRefund?.status === "pending_approval" ? existingRefund.amount : 0);
+      if (!Number.isInteger(amount) || amount <= 0 || amount > available) throw new AppError(`Enter a refund between ₹1 and ${formatINR(available)}.`);
+    }
+  }
+
+  // Claim the transition atomically: if two people act on the same return at
+  // once, only one of them restocks or refunds.
+  const next = NEXT[action];
+  const claimed = await ReturnRequest.findOneAndUpdate(
+    { _id: request._id, status: request.status },
+    {
+      $set: { status: next, adminNote: opts.note || request.adminNote, ...(action === "refund" ? { refundAmount: amount } : {}) },
+      $push: { history: { status: next, note: opts.note, at: new Date(), by: actor.name } },
+    },
+    { returnDocument: "after" },
+  ).lean();
+  if (!claimed) throw new AppError("This return was just updated by someone else. Refresh the page to see its current status.");
+
   if (action === "receive") {
     const restock = opts.restock !== false;
     for (const item of request.items) {
@@ -159,27 +189,31 @@ export async function updateReturnRequest(
     await ReturnRequest.updateOne({ _id: request._id }, { $set: { restock } });
   }
 
-  if (action === "refund") {
-    const amount = opts.refundAmount ?? request.refundAmount;
-    if (order.pricing.amountPaid <= 0) {
-      throw new AppError("This order has no recorded payment to refund. For Cash on Delivery orders, mark the order as delivered first.");
+  if (action === "refund" && !(existingRefund && ["processing", "processed", "manual"].includes(existingRefund.status))) {
+    const approver = { id: actor.id, name: actor.name, type: "admin" as const };
+    try {
+      let refundId: string;
+      if (existingRefund) {
+        // Retry the earlier pending/failed refund instead of creating a second one.
+        refundId = existingRefund._id.toHexString();
+        if (existingRefund.amount !== amount) await Refund.updateOne({ _id: existingRefund._id, status: { $in: ["pending_approval", "failed"] } }, { $set: { amount } });
+      } else {
+        const refund = await createRefund({ order, amount, reason: `Return: ${request.reason}`, source: "return", requestedBy: approver, returnRequestId: request._id });
+        refundId = refund._id.toHexString();
+      }
+      await approveRefund(refundId, approver);
+    } catch (error) {
+      // Put the return back so the refund can be retried from here.
+      await ReturnRequest.updateOne(
+        { _id: request._id, status: next },
+        {
+          $set: { status: request.status },
+          $push: { history: { status: request.status, note: `Refund failed: ${error instanceof Error ? error.message : "unknown error"}`, at: new Date(), by: actor.name } },
+        },
+      );
+      throw error;
     }
-    const refund = await createRefund({
-      order,
-      amount,
-      reason: `Return: ${request.reason}`,
-      source: "return",
-      requestedBy: { id: actor.id, name: actor.name, type: "admin" },
-      returnRequestId: request._id,
-    });
-    await approveRefund(refund._id.toHexString(), { id: actor.id, name: actor.name, type: "admin" });
-    await ReturnRequest.updateOne({ _id: request._id }, { $set: { refundAmount: amount } });
   }
 
-  const next = NEXT[action];
-  await ReturnRequest.updateOne(
-    { _id: request._id, status: request.status },
-    { $set: { status: next, adminNote: opts.note || request.adminNote }, $push: { history: { status: next, note: opts.note, at: new Date(), by: actor.name } } },
-  );
   runAfter(() => notifyReturnUpdate(order, request._id.toHexString(), RETURN_STATUS_LABELS[next], opts.note));
 }

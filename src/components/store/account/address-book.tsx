@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
-import { useForm } from "react-hook-form";
+import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Loader2, MapPin, Pencil, Plus, Star, Trash2 } from "lucide-react";
 import { toast } from "sonner";
@@ -26,6 +26,7 @@ export function AddressBook({ addresses }: { addresses: SavedAddress[] }) {
   const [editing, setEditing] = useState<SavedAddress | "new" | null>(null);
   const [pending, startTransition] = useTransition();
   const form = useForm<FormValues>({ resolver: zodResolver(savedAddressSchema), defaultValues: EMPTY });
+  const [watchedLabel, watchedDefault] = useWatch({ control: form.control, name: ["label", "isDefault"] });
 
   const open = (address: SavedAddress | "new") => {
     form.reset(address === "new" ? { ...EMPTY, isDefault: addresses.length === 0 } : { ...address });
@@ -108,7 +109,7 @@ export function AddressBook({ addresses }: { addresses: SavedAddress[] }) {
           <form onSubmit={onSubmit} noValidate className="space-y-5">
             <AddressFields form={form} prefix="" section="book" />
             <div className="flex flex-wrap items-center gap-6">
-              <RadioGroup value={form.watch("label")} onValueChange={(v) => form.setValue("label", v as FormValues["label"])} className="flex gap-4" aria-label="Address type">
+              <RadioGroup value={watchedLabel} onValueChange={(v) => form.setValue("label", v as FormValues["label"])} className="flex gap-4" aria-label="Address type">
                 {(["home", "work", "other"] as const).map((label) => (
                   <Label key={label} className="flex items-center gap-2 font-normal capitalize">
                     <RadioGroupItem value={label} /> {label}
@@ -116,7 +117,7 @@ export function AddressBook({ addresses }: { addresses: SavedAddress[] }) {
                 ))}
               </RadioGroup>
               <label className="flex items-center gap-2 text-sm">
-                <Checkbox checked={form.watch("isDefault")} onCheckedChange={(c) => form.setValue("isDefault", c === true)} /> Set as default
+                <Checkbox checked={watchedDefault} onCheckedChange={(c) => form.setValue("isDefault", c === true)} /> Set as default
               </label>
             </div>
             <DialogFooter>

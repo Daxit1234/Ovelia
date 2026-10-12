@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
-import { useForm } from "react-hook-form";
+import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { BadgeCheck, Loader2, MailWarning } from "lucide-react";
@@ -25,6 +25,7 @@ const profileSchema = z.object({
 
 export function ProfileForm({ initial, email, emailVerified }: { initial: z.infer<typeof profileSchema>; email: string; emailVerified: boolean }) {
   const form = useForm<z.infer<typeof profileSchema>>({ resolver: zodResolver(profileSchema), defaultValues: initial });
+  const marketingOptIn = useWatch({ control: form.control, name: "marketingOptIn" });
   const [sending, startSending] = useTransition();
   const errors = form.formState.errors;
   const onSubmit = form.handleSubmit(async (values) => {
@@ -73,7 +74,7 @@ export function ProfileForm({ initial, email, emailVerified }: { initial: z.infe
         </Field>
       </div>
       <label className="flex items-center gap-2.5 text-sm">
-        <Checkbox checked={form.watch("marketingOptIn")} onCheckedChange={(c) => form.setValue("marketingOptIn", c === true, { shouldDirty: true })} />
+        <Checkbox checked={marketingOptIn} onCheckedChange={(c) => form.setValue("marketingOptIn", c === true, { shouldDirty: true })} />
         Email me offers and product updates
       </label>
       <Button type="submit" disabled={form.formState.isSubmitting || !form.formState.isDirty}>
