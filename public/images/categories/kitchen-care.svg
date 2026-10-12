@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Kitchen Care"><title>Kitchen Care</title><defs><radialGradient id="bg166" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#faecc0"/>
+      <stop offset="1" stop-color="#fdf9ea"/>
+    </radialGradient></defs>
+    <rect width="600" height="600" fill="url(#bg166)"/>
+    <circle cx="373.6" cy="99.9" r="27.0" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="91.9" cy="12.0" r="25.4" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="342.2" cy="416.3" r="39.5" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="174.4" cy="72.8" r="47.2" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="438.6" cy="141.6" r="26.3" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="184.7" cy="342.5" r="30.7" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="262.8" cy="395.7" r="38.1" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/>
+    <defs><filter id="blur167" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="395" cy="551" rx="96.79245283018867" ry="11.61509433962264" fill="#7b4f21" opacity="0.22" filter="url(#blur167)"/><g transform="translate(293.1 194.5) scale(0.6792)"><defs><linearGradient id="body168" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#c98236"/>
+      <stop offset="0.35" stop-color="#f6aa59"/>
+      <stop offset="0.65" stop-color="#f59e42"/>
+      <stop offset="1" stop-color="#b87732"/>
+    </linearGradient></defs>
+        <path d="M82 66 L198 66 Q214 66 214 82 L214 120 L124 120 L124 102 L84 102 Q70 102 70 90 L70 78 Q70 66 82 66 Z" fill="#0b4d3b"/>
+        <rect x="56" y="80" width="20" height="12" rx="4" fill="#083a2c"/>
+        <path d="M150 118 Q128 150 138 190 L152 190 Q146 152 168 124 Z" fill="#083a2c"/>
+        <rect x="120" y="118" width="64" height="40" rx="6" fill="#083a2c"/>
+        <path d="M118 156 L182 156 L182 176 C238 186 250 214 250 252 L250 474 Q250 516 210 516 L90 516 Q50 516 50 474 L50 252 C50 214 62 186 118 176 Z" fill="url(#body168)"/>
+        <rect x="66" y="250" width="14" height="230" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="66" y="262" width="168" height="214" rx="21" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 272.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="291.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="88" x2="212" y1="304.2" y2="304.2" stroke="#f8bb7b" stroke-width="2"/>
+    <text x="150" y="332" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="33" font-weight="800" fill="#0f1f1a">Kitchen</text><text x="150" y="367.64" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="33" font-weight="800" fill="#0f1f1a">Cleaner</text>
+    <text x="150" y="411.28" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#b83e0b">Orange Zest</text>
+    <rect x="66" y="441.76" width="168" height="34.24" rx="21" fill="#f59e42"/>
+    <rect x="66" y="441.76" width="168" height="17.12" fill="#f59e42"/>
+    <text x="150" y="466.8" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L Refill</text>
+  </g></g><defs><filter id="blur169" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="215" cy="551" rx="112.9245283018868" ry="13.550943396226415" fill="#796526" opacity="0.22" filter="url(#blur169)"/><g transform="translate(96.1 136.1) scale(0.7925)"><defs><linearGradient id="body170" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#c6a53e"/>
+      <stop offset="0.35" stop-color="#f4cf61"/>
+      <stop offset="0.65" stop-color="#f2c94c"/>
+      <stop offset="1" stop-color="#b69739"/>
+    </linearGradient></defs>
+        <rect x="134" y="-12" width="32" height="20" rx="7" fill="#083a2c"/>
+        <rect x="108" y="2" width="84" height="62" rx="14" fill="#0b4d3b"/>
+        <rect x="108" y="44" width="84" height="8" fill="#083a2c" opacity="0.5"/>
+        <rect x="118" y="62" width="64" height="20" rx="4" fill="#d5b143"/>
+        <path d="M120 78 C120 104 40 106 40 152 L40 470 Q40 516 86 516 L214 516 Q260 516 260 470 L260 152 C260 106 180 104 180 78 Z" fill="url(#body170)"/>
+        <rect x="58" y="160" width="14" height="300" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="62" y="196" width="176" height="240" rx="22" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 206.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="225.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="84" x2="216" y1="238.2" y2="238.2" stroke="#f6d982" stroke-width="2"/>
+    <text x="150" y="266" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1f1a">Dishwash</text>
+    <text x="150" y="306.4" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#2d9641">Lemon Fresh</text>
+    <rect x="62" y="397.6" width="176" height="38.4" rx="22" fill="#f2c94c"/>
+    <rect x="62" y="397.6" width="176" height="19.2" fill="#f2c94c"/>
+    <text x="150" y="424.72" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L</text>
+  </g></g></svg>

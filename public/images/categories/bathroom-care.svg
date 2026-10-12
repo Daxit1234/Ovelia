@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Bathroom Care"><title>Bathroom Care</title><defs><radialGradient id="bg176" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#bad3fc"/>
+      <stop offset="1" stop-color="#e7f0fe"/>
+    </radialGradient></defs>
+    <rect width="600" height="600" fill="url(#bg176)"/>
+    <circle cx="269.4" cy="254.9" r="44.9" fill="#ffffff" fill-opacity="0.55" stroke="#3b82f6" stroke-opacity="0.22" stroke-width="2"/><circle cx="492.4" cy="455.1" r="38.0" fill="#ffffff" fill-opacity="0.55" stroke="#3b82f6" stroke-opacity="0.22" stroke-width="2"/><circle cx="14.0" cy="320.9" r="32.0" fill="#ffffff" fill-opacity="0.55" stroke="#3b82f6" stroke-opacity="0.22" stroke-width="2"/><circle cx="284.2" cy="52.2" r="42.8" fill="#ffffff" fill-opacity="0.55" stroke="#3b82f6" stroke-opacity="0.22" stroke-width="2"/><circle cx="353.0" cy="329.1" r="10.2" fill="#ffffff" fill-opacity="0.55" stroke="#3b82f6" stroke-opacity="0.22" stroke-width="2"/><circle cx="470.4" cy="391.6" r="26.1" fill="#ffffff" fill-opacity="0.55" stroke="#3b82f6" stroke-opacity="0.22" stroke-width="2"/><circle cx="286.4" cy="439.6" r="30.4" fill="#ffffff" fill-opacity="0.55" stroke="#3b82f6" stroke-opacity="0.22" stroke-width="2"/>
+    <defs><filter id="blur177" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="395" cy="551" rx="96.79245283018867" ry="11.61509433962264" fill="#1a6a4d" opacity="0.22" filter="url(#blur177)"/><g transform="translate(293.1 194.5) scale(0.6792)"><defs><linearGradient id="body178" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#2bad7d"/>
+      <stop offset="0.35" stop-color="#4cd8a5"/>
+      <stop offset="0.65" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#279e73"/>
+    </linearGradient></defs>
+        <path d="M82 66 L198 66 Q214 66 214 82 L214 120 L124 120 L124 102 L84 102 Q70 102 70 90 L70 78 Q70 66 82 66 Z" fill="#0b4d3b"/>
+        <rect x="56" y="80" width="20" height="12" rx="4" fill="#083a2c"/>
+        <path d="M150 118 Q128 150 138 190 L152 190 Q146 152 168 124 Z" fill="#083a2c"/>
+        <rect x="120" y="118" width="64" height="40" rx="6" fill="#083a2c"/>
+        <path d="M118 156 L182 156 L182 176 C238 186 250 214 250 252 L250 474 Q250 516 210 516 L90 516 Q50 516 50 474 L50 252 C50 214 62 186 118 176 Z" fill="url(#body178)"/>
+        <rect x="66" y="250" width="14" height="230" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="66" y="262" width="168" height="214" rx="21" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 272.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="291.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="88" x2="212" y1="304.2" y2="304.2" stroke="#71e0b8" stroke-width="2"/>
+    <text x="150" y="332" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="800" fill="#0f1f1a">Bathroom</text><text x="150" y="363.32" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="800" fill="#0f1f1a">Cleaner</text>
+    <text x="150" y="402.64" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#047253">Tiles &amp; Taps</text>
+    <rect x="66" y="441.76" width="168" height="34.24" rx="21" fill="#34d399"/>
+    <rect x="66" y="441.76" width="168" height="17.12" fill="#34d399"/>
+    <text x="150" y="466.8" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L Refill</text>
+  </g></g><defs><filter id="blur179" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="215" cy="551" rx="112.9245283018868" ry="13.550943396226415" fill="#1e417b" opacity="0.22" filter="url(#blur179)"/><g transform="translate(96.1 136.1) scale(0.7925)"><defs><linearGradient id="body180" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#306bca"/>
+      <stop offset="0.35" stop-color="#5391f7"/>
+      <stop offset="0.65" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#2c62b9"/>
+    </linearGradient></defs>
+        <g transform="rotate(-14 110 70)">
+          <rect x="84" y="-6" width="56" height="40" rx="10" fill="#0b4d3b"/>
+          <path d="M92 30 L132 30 L140 132 L92 132 Z" fill="#3575dd"/>
+        </g>
+        <path d="M58 174 Q58 126 104 124 L204 120 Q248 120 248 166 L248 470 Q248 516 206 516 L100 516 Q58 516 58 470 Z" fill="url(#body180)"/>
+        <rect x="74" y="180" width="14" height="290" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="76" y="214" width="156" height="232" rx="19.5" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(97.66666666666667 225.26666666666668) scale(0.8305555555555554)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="123.66666666666667" y="243.46666666666667" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17.333333333333332" font-weight="800" letter-spacing="3.813333333333333" fill="#0b4d3b">OVELIA</text>
+    <line x1="98" x2="210" y1="255.6" y2="255.6" stroke="#76a8f9" stroke-width="2"/>
+    <text x="154" y="283.3333333333333" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1f1a">Toilet</text><text x="154" y="315.73333333333335" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1f1a">Cleaner</text>
+    <text x="154" y="356.1333333333333" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#1d3da6">Thick Gel</text>
+    <rect x="76" y="408.88" width="156" height="37.12" rx="19.5" fill="#3b82f6"/>
+    <rect x="76" y="408.88" width="156" height="18.56" fill="#3b82f6"/>
+    <text x="154" y="435.36" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L</text>
+  </g></g></svg>

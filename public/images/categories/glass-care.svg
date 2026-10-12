@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Glass &amp; Mirrors"><title>Glass &amp; Mirrors</title><defs><radialGradient id="bg181" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#b9e8fd"/>
+      <stop offset="1" stop-color="#e7f7fe"/>
+    </radialGradient></defs>
+    <rect width="600" height="600" fill="url(#bg181)"/>
+    <circle cx="217.3" cy="92.3" r="15.9" fill="#ffffff" fill-opacity="0.55" stroke="#38bdf8" stroke-opacity="0.22" stroke-width="2"/><circle cx="92.6" cy="436.6" r="25.3" fill="#ffffff" fill-opacity="0.55" stroke="#38bdf8" stroke-opacity="0.22" stroke-width="2"/><circle cx="449.8" cy="273.2" r="47.2" fill="#ffffff" fill-opacity="0.55" stroke="#38bdf8" stroke-opacity="0.22" stroke-width="2"/><circle cx="339.0" cy="281.9" r="21.6" fill="#ffffff" fill-opacity="0.55" stroke="#38bdf8" stroke-opacity="0.22" stroke-width="2"/><circle cx="10.1" cy="182.9" r="40.2" fill="#ffffff" fill-opacity="0.55" stroke="#38bdf8" stroke-opacity="0.22" stroke-width="2"/><circle cx="313.2" cy="176.1" r="42.9" fill="#ffffff" fill-opacity="0.55" stroke="#38bdf8" stroke-opacity="0.22" stroke-width="2"/><circle cx="298.2" cy="461.5" r="45.5" fill="#ffffff" fill-opacity="0.55" stroke="#38bdf8" stroke-opacity="0.22" stroke-width="2"/>
+    <defs><filter id="blur182" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="300" cy="551" rx="118.30188679245283" ry="14.196226415094339" fill="#1c5f7c" opacity="0.22" filter="url(#blur182)"/><g transform="translate(175.5 116.6) scale(0.8302)"><defs><linearGradient id="body183" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#2e9bcb"/>
+      <stop offset="0.35" stop-color="#50c5f9"/>
+      <stop offset="0.65" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2a8eba"/>
+    </linearGradient></defs>
+        <path d="M82 66 L198 66 Q214 66 214 82 L214 120 L124 120 L124 102 L84 102 Q70 102 70 90 L70 78 Q70 66 82 66 Z" fill="#0b4d3b"/>
+        <rect x="56" y="80" width="20" height="12" rx="4" fill="#083a2c"/>
+        <path d="M150 118 Q128 150 138 190 L152 190 Q146 152 168 124 Z" fill="#083a2c"/>
+        <rect x="120" y="118" width="64" height="40" rx="6" fill="#083a2c"/>
+        <path d="M118 156 L182 156 L182 176 C238 186 250 214 250 252 L250 474 Q250 516 210 516 L90 516 Q50 516 50 474 L50 252 C50 214 62 186 118 176 Z" fill="url(#body183)"/>
+        <rect x="66" y="250" width="14" height="230" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="66" y="262" width="168" height="214" rx="21" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 272.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="291.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="88" x2="212" y1="304.2" y2="304.2" stroke="#74d1fa" stroke-width="2"/>
+    <text x="150" y="332" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="33" font-weight="800" fill="#0f1f1a">Glass</text><text x="150" y="367.64" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="33" font-weight="800" fill="#0f1f1a">Cleaner</text>
+    <text x="150" y="411.28" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#036499">Crystal Clear</text>
+    <rect x="66" y="441.76" width="168" height="34.24" rx="21" fill="#38bdf8"/>
+    <rect x="66" y="441.76" width="168" height="17.12" fill="#38bdf8"/>
+    <text x="150" y="466.8" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L Refill</text>
+  </g></g></svg>

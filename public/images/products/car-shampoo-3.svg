@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Car Shampoo sizes"><title>Car Shampoo sizes</title><defs><linearGradient id="bg114" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef7f3"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient></defs>
+    <rect width="800" height="800" fill="url(#bg114)"/>
+    <text x="400" y="86" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" letter-spacing="2" fill="#0b4d3b">AVAILABLE SIZES</text>
+    <defs><filter id="blur115" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="140" cy="646" rx="113.24716981132076" ry="13.589660377358491" fill="#0f276c" opacity="0.22" filter="url(#blur115)"/><g transform="translate(20.8 229.9) scale(0.7947)"><defs><linearGradient id="body116" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#1840b1"/>
+      <stop offset="0.35" stop-color="#3863dd"/>
+      <stop offset="0.65" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#163ba2"/>
+    </linearGradient></defs>
+        <rect x="116" y="14" width="68" height="58" rx="12" fill="#0f172a"/>
+        <rect x="116" y="54" width="68" height="8" fill="#0b1120" opacity="0.5"/>
+        <path d="M112 70 L188 70 L190 96 C258 102 276 132 276 176 L276 470 Q276 516 230 516 L70 516 Q24 516 24 470 L24 176 C24 132 42 102 110 96 Z" fill="url(#body116)"/>
+        <rect x="30" y="250" width="16" height="150" rx="8" fill="#163ba2" opacity="0.6"/>
+        <rect x="254" y="250" width="16" height="150" rx="8" fill="#143797" opacity="0.6"/>
+        <rect x="52" y="180" width="14" height="300" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="58" y="200" width="184" height="248" rx="22" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 210.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="229.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="80" x2="220" y1="242.2" y2="242.2" stroke="#6183e4" stroke-width="2"/>
+    <text x="150" y="270" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="800" fill="#0f1f1a">Car Shampoo</text>
+    <text x="150" y="302.84000000000003" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.26" font-weight="600" fill="#0e1628">Foam Wash</text>
+    <rect x="58" y="408.32" width="184" height="39.68" rx="22" fill="#1d4ed8"/>
+    <rect x="58" y="408.32" width="184" height="19.84" fill="#1d4ed8"/>
+    <text x="150" y="436.08000000000004" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">500 ml</text>
+  </g></g>
+      <rect x="70" y="672" width="140" height="44" rx="22" fill="#ffffff" stroke="#6183e4" stroke-width="2"/>
+      <text x="140" y="701" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="800" fill="#0f1f1a">500 ml</text><defs><filter id="blur117" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="660" cy="646" rx="139.81132075471697" ry="16.777358490566037" fill="#0f276c" opacity="0.22" filter="url(#blur117)"/><g transform="translate(512.8 133.7) scale(0.9811)"><defs><linearGradient id="body118" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#1840b1"/>
+      <stop offset="0.35" stop-color="#3863dd"/>
+      <stop offset="0.65" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#163ba2"/>
+    </linearGradient></defs>
+        <rect x="116" y="14" width="68" height="58" rx="12" fill="#0f172a"/>
+        <rect x="116" y="54" width="68" height="8" fill="#0b1120" opacity="0.5"/>
+        <path d="M112 70 L188 70 L190 96 C258 102 276 132 276 176 L276 470 Q276 516 230 516 L70 516 Q24 516 24 470 L24 176 C24 132 42 102 110 96 Z" fill="url(#body118)"/>
+        <rect x="30" y="250" width="16" height="150" rx="8" fill="#163ba2" opacity="0.6"/>
+        <rect x="254" y="250" width="16" height="150" rx="8" fill="#143797" opacity="0.6"/>
+        <rect x="52" y="180" width="14" height="300" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="58" y="200" width="184" height="248" rx="22" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 210.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="229.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="80" x2="220" y1="242.2" y2="242.2" stroke="#6183e4" stroke-width="2"/>
+    <text x="150" y="270" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="800" fill="#0f1f1a">Car Shampoo</text>
+    <text x="150" y="302.84000000000003" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.26" font-weight="600" fill="#0e1628">Foam Wash</text>
+    <rect x="58" y="408.32" width="184" height="39.68" rx="22" fill="#1d4ed8"/>
+    <rect x="58" y="408.32" width="184" height="19.84" fill="#1d4ed8"/>
+    <text x="150" y="436.08000000000004" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L</text>
+  </g></g>
+      <rect x="590" y="672" width="140" height="44" rx="22" fill="#ffffff" stroke="#6183e4" stroke-width="2"/>
+      <text x="660" y="701" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="800" fill="#0f1f1a">1 L</text></svg>

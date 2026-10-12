@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Aloe Hand Wash highlights"><title>Aloe Hand Wash highlights</title><defs><linearGradient id="bg100" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e6f5d0"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient></defs>
+    <rect width="800" height="800" fill="url(#bg100)"/>
+    <circle cx="57.2" cy="572.9" r="19.1" fill="#ffffff" fill-opacity="0.55" stroke="#84cc16" stroke-opacity="0.22" stroke-width="2"/><circle cx="164.1" cy="290.8" r="27.3" fill="#ffffff" fill-opacity="0.55" stroke="#84cc16" stroke-opacity="0.22" stroke-width="2"/><circle cx="386.6" cy="60.4" r="40.8" fill="#ffffff" fill-opacity="0.55" stroke="#84cc16" stroke-opacity="0.22" stroke-width="2"/><circle cx="59.8" cy="148.7" r="37.3" fill="#ffffff" fill-opacity="0.55" stroke="#84cc16" stroke-opacity="0.22" stroke-width="2"/><circle cx="198.7" cy="182.0" r="32.7" fill="#ffffff" fill-opacity="0.55" stroke="#84cc16" stroke-opacity="0.22" stroke-width="2"/><circle cx="138.3" cy="427.3" r="42.7" fill="#ffffff" fill-opacity="0.55" stroke="#84cc16" stroke-opacity="0.22" stroke-width="2"/>
+    <defs><filter id="blur101" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="230" cy="696" rx="150.56603773584905" ry="18.067924528301884" fill="#42660b" opacity="0.22" filter="url(#blur101)"/><g transform="translate(71.5 144.8) scale(1.0566)"><defs><linearGradient id="body102" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#6ca712"/>
+      <stop offset="0.35" stop-color="#93d232"/>
+      <stop offset="0.65" stop-color="#84cc16"/>
+      <stop offset="1" stop-color="#639911"/>
+    </linearGradient></defs>
+        <rect x="150" y="40" width="94" height="22" rx="9" fill="#0b4d3b"/>
+        <rect x="232" y="54" width="12" height="18" rx="4" fill="#083a2c"/>
+        <rect x="136" y="40" width="30" height="86" rx="8" fill="#0b4d3b"/>
+        <rect x="110" y="116" width="82" height="42" rx="10" fill="#083a2c"/>
+        <path d="M92 156 L210 156 Q234 156 236 180 L250 470 Q252 516 206 516 L94 516 Q48 516 50 470 L64 180 Q66 156 92 156 Z" fill="url(#body102)"/>
+        <rect x="76" y="190" width="14" height="280" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="70" y="222" width="162" height="224" rx="20.25" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(92.5 232.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="119.5" y="251.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="92" x2="210" y1="264.2" y2="264.2" stroke="#a9db5c" stroke-width="2"/>
+    <text x="151" y="292" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="800" fill="#0f1f1a">Hand Wash</text>
+    <text x="151" y="325.92" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.879999999999999" font-weight="600" fill="#3c5d11">Aloe Fresh</text>
+    <rect x="70" y="410.15999999999997" width="162" height="35.84" rx="20.25" fill="#84cc16"/>
+    <rect x="70" y="410.15999999999997" width="162" height="17.92" fill="#84cc16"/>
+    <text x="151" y="436" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L Refill</text>
+  </g></g>
+    <rect x="440" y="170" width="330" height="372" rx="28" fill="#ffffff" opacity="0.94"/>
+    <g transform="translate(468 200) scale(1.0833333333333333)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="504" y="222" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3" fill="#0b4d3b">KEY FEATURES</text>
+    <line x1="468" x2="742" y1="246" y2="246" stroke="#b5e073" stroke-width="2"/>
+    <g>
+      <circle cx="476" cy="293" r="15" fill="#84cc16"/>
+      <path d="M469 293 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Easy pump dispenser</text>
+    </g><g>
+      <circle cx="476" cy="357" r="15" fill="#84cc16"/>
+      <path d="M469 357 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="364" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Aloe fragrance</text>
+    </g><g>
+      <circle cx="476" cy="421" r="15" fill="#84cc16"/>
+      <path d="M469 421 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="428" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Refill pack available</text>
+    </g></svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Complete Home Care Kit — Kit of 4"><title>Complete Home Care Kit — Kit of 4</title><defs><radialGradient id="bg130" cx="50%" cy="42%" r="70%">
+      <stop offset="0" stop-color="#bbd6cf"/>
+      <stop offset="0.65" stop-color="#e7f0ee"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </radialGradient></defs>
+    <rect width="800" height="800" fill="url(#bg130)"/>
+    <circle cx="623.7" cy="43.6" r="33.3" fill="#ffffff" fill-opacity="0.55" stroke="#0b6b52" stroke-opacity="0.22" stroke-width="2"/><circle cx="357.4" cy="102.6" r="19.0" fill="#ffffff" fill-opacity="0.55" stroke="#0b6b52" stroke-opacity="0.22" stroke-width="2"/><circle cx="333.7" cy="444.7" r="36.2" fill="#ffffff" fill-opacity="0.55" stroke="#0b6b52" stroke-opacity="0.22" stroke-width="2"/><circle cx="85.9" cy="56.3" r="24.8" fill="#ffffff" fill-opacity="0.55" stroke="#0b6b52" stroke-opacity="0.22" stroke-width="2"/><circle cx="747.4" cy="484.3" r="38.6" fill="#ffffff" fill-opacity="0.55" stroke="#0b6b52" stroke-opacity="0.22" stroke-width="2"/><circle cx="251.5" cy="75.2" r="17.6" fill="#ffffff" fill-opacity="0.55" stroke="#0b6b52" stroke-opacity="0.22" stroke-width="2"/><circle cx="531.5" cy="375.8" r="15.4" fill="#ffffff" fill-opacity="0.55" stroke="#0b6b52" stroke-opacity="0.22" stroke-width="2"/><circle cx="320.8" cy="372.6" r="10.0" fill="#ffffff" fill-opacity="0.55" stroke="#0b6b52" stroke-opacity="0.22" stroke-width="2"/><circle cx="752.6" cy="332.4" r="17.2" fill="#ffffff" fill-opacity="0.55" stroke="#0b6b52" stroke-opacity="0.22" stroke-width="2"/>
+    <ellipse cx="400" cy="705" rx="300" ry="34" fill="#9dc4ba" opacity="0.6"/>
+    <defs><filter id="blur131" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="400" cy="706" rx="161.32075471698113" ry="19.358490566037734" fill="#063629" opacity="0.22" filter="url(#blur131)"/><g transform="translate(230.2 115.8) scale(1.1321)"><g transform="translate(-10 100.79999999999998) scale(0.46)"><defs><linearGradient id="body133" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#c6a53e"/>
+      <stop offset="0.35" stop-color="#f4cf61"/>
+      <stop offset="0.65" stop-color="#f2c94c"/>
+      <stop offset="1" stop-color="#b69739"/>
+    </linearGradient></defs>
+        <rect x="134" y="-12" width="32" height="20" rx="7" fill="#083a2c"/>
+        <rect x="108" y="2" width="84" height="62" rx="14" fill="#0b4d3b"/>
+        <rect x="108" y="44" width="84" height="8" fill="#083a2c" opacity="0.5"/>
+        <rect x="118" y="62" width="64" height="20" rx="4" fill="#d5b143"/>
+        <path d="M120 78 C120 104 40 106 40 152 L40 470 Q40 516 86 516 L214 516 Q260 516 260 470 L260 152 C260 106 180 104 180 78 Z" fill="url(#body133)"/>
+        <rect x="58" y="160" width="14" height="300" rx="7" fill="#ffffff" opacity="0.32"/>
+        </g><g transform="translate(70 80) scale(0.5)"><defs><linearGradient id="body134" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7f73be"/>
+      <stop offset="0.35" stop-color="#a79aeb"/>
+      <stop offset="0.65" stop-color="#9b8ce8"/>
+      <stop offset="1" stop-color="#7469ae"/>
+    </linearGradient></defs>
+        <path d="M178 108 C176 52 262 50 262 150" fill="none" stroke="#7c70ba" stroke-width="30" stroke-linecap="round"/>
+        <rect x="66" y="14" width="76" height="54" rx="12" fill="#0b4d3b"/>
+        <rect x="66" y="50" width="76" height="8" fill="#083a2c" opacity="0.5"/>
+        <path d="M74 66 L134 66 L140 104 L238 104 Q272 104 272 150 L272 470 Q272 516 228 516 L72 516 Q28 516 28 470 L28 150 Q28 110 70 104 Z" fill="url(#body134)"/>
+        <rect x="46" y="150" width="14" height="320" rx="7" fill="#ffffff" opacity="0.32"/>
+        </g><g transform="translate(150 100.79999999999998) scale(0.46)"><defs><linearGradient id="body135" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#306bca"/>
+      <stop offset="0.35" stop-color="#5391f7"/>
+      <stop offset="0.65" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#2c62b9"/>
+    </linearGradient></defs>
+        <g transform="rotate(-14 110 70)">
+          <rect x="84" y="-6" width="56" height="40" rx="10" fill="#0b4d3b"/>
+          <path d="M92 30 L132 30 L140 132 L92 132 Z" fill="#3575dd"/>
+        </g>
+        <path d="M58 174 Q58 126 104 124 L204 120 Q248 120 248 166 L248 470 Q248 516 206 516 L100 516 Q58 516 58 470 Z" fill="url(#body135)"/>
+        <rect x="74" y="180" width="14" height="290" rx="7" fill="#ffffff" opacity="0.32"/>
+        </g><g transform="translate(220 121.6) scale(0.42)"><defs><linearGradient id="body136" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#2e9bcb"/>
+      <stop offset="0.35" stop-color="#50c5f9"/>
+      <stop offset="0.65" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2a8eba"/>
+    </linearGradient></defs>
+        <path d="M82 66 L198 66 Q214 66 214 82 L214 120 L124 120 L124 102 L84 102 Q70 102 70 90 L70 78 Q70 66 82 66 Z" fill="#0b4d3b"/>
+        <rect x="56" y="80" width="20" height="12" rx="4" fill="#083a2c"/>
+        <path d="M150 118 Q128 150 138 190 L152 190 Q146 152 168 124 Z" fill="#083a2c"/>
+        <rect x="120" y="118" width="64" height="40" rx="6" fill="#083a2c"/>
+        <path d="M118 156 L182 156 L182 176 C238 186 250 214 250 252 L250 474 Q250 516 210 516 L90 516 Q50 516 50 474 L50 252 C50 214 62 186 118 176 Z" fill="url(#body136)"/>
+        <rect x="66" y="250" width="14" height="230" rx="7" fill="#ffffff" opacity="0.32"/>
+        </g>
+    <rect x="6" y="292" width="288" height="224" rx="26" fill="#0b4d3b"/>
+    <rect x="6" y="292" width="288" height="30" rx="14" fill="#083a2c"/>
+    <g transform="translate(77 346) scale(1.0833333333333333)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#ffffff"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="111" y="368" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="5" fill="#ffffff">OVELIA</text>
+    <text x="150" y="420" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff">Home Care Kit</text>
+    <text x="150" y="452" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" fill="#f3ce5e">4 essentials</text>
+    <rect x="96" y="472" width="108" height="30" rx="15" fill="#f2c94c"/>
+    <text x="150" y="493" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="800" fill="#0f1f1a">Kit of 4</text></g></svg>

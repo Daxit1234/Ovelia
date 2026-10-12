@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Liquid Laundry Detergent sizes"><title>Liquid Laundry Detergent sizes</title><defs><linearGradient id="bg90" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef7f3"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient></defs>
+    <rect width="800" height="800" fill="url(#bg90)"/>
+    <text x="400" y="86" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" letter-spacing="2" fill="#0b4d3b">AVAILABLE SIZES</text>
+    <defs><filter id="blur91" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="140" cy="646" rx="97.308679245283" ry="11.677041509433959" fill="#035b6a" opacity="0.22" filter="url(#blur91)"/><g transform="translate(37.6 287.6) scale(0.6829)"><defs><linearGradient id="body92" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0595ae"/>
+      <stop offset="0.35" stop-color="#24bfd9"/>
+      <stop offset="0.65" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#05899f"/>
+    </linearGradient></defs>
+        <path d="M178 108 C176 52 262 50 262 150" fill="none" stroke="#0592aa" stroke-width="30" stroke-linecap="round"/>
+        <rect x="66" y="14" width="76" height="54" rx="12" fill="#0b4d3b"/>
+        <rect x="66" y="50" width="76" height="8" fill="#083a2c" opacity="0.5"/>
+        <path d="M74 66 L134 66 L140 104 L238 104 Q272 104 272 150 L272 470 Q272 516 228 516 L72 516 Q28 516 28 470 L28 150 Q28 110 70 104 Z" fill="url(#body92)"/>
+        <rect x="46" y="150" width="14" height="320" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="54" y="206" width="192" height="246" rx="22" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 216.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="235.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="76" x2="224" y1="248.2" y2="248.2" stroke="#51cce1" stroke-width="2"/>
+    <text x="150" y="276" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1f1a">Liquid</text><text x="150" y="308.4" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1f1a">Detergent</text>
+    <text x="150" y="348.8" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#0d6e89">Top &amp; Front Load</text>
+    <rect x="54" y="412.64" width="192" height="39.36" rx="22" fill="#06b6d4"/>
+    <rect x="54" y="412.64" width="192" height="19.68" fill="#06b6d4"/>
+    <text x="150" y="440.24" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L</text>
+  </g></g>
+      <rect x="70" y="672" width="140" height="44" rx="22" fill="#ffffff" stroke="#51cce1" stroke-width="2"/>
+      <text x="140" y="701" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="800" fill="#0f1f1a">1 L</text><defs><filter id="blur93" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="400" cy="646" rx="107.9343396226415" ry="12.95212075471698" fill="#035b6a" opacity="0.22" filter="url(#blur93)"/><g transform="translate(286.4 249.2) scale(0.7574)"><defs><linearGradient id="body94" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0595ae"/>
+      <stop offset="0.35" stop-color="#24bfd9"/>
+      <stop offset="0.65" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#05899f"/>
+    </linearGradient></defs>
+        <path d="M178 108 C176 52 262 50 262 150" fill="none" stroke="#0592aa" stroke-width="30" stroke-linecap="round"/>
+        <rect x="66" y="14" width="76" height="54" rx="12" fill="#0b4d3b"/>
+        <rect x="66" y="50" width="76" height="8" fill="#083a2c" opacity="0.5"/>
+        <path d="M74 66 L134 66 L140 104 L238 104 Q272 104 272 150 L272 470 Q272 516 228 516 L72 516 Q28 516 28 470 L28 150 Q28 110 70 104 Z" fill="url(#body94)"/>
+        <rect x="46" y="150" width="14" height="320" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="54" y="206" width="192" height="246" rx="22" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 216.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="235.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="76" x2="224" y1="248.2" y2="248.2" stroke="#51cce1" stroke-width="2"/>
+    <text x="150" y="276" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1f1a">Liquid</text><text x="150" y="308.4" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1f1a">Detergent</text>
+    <text x="150" y="348.8" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#0d6e89">Top &amp; Front Load</text>
+    <rect x="54" y="412.64" width="192" height="39.36" rx="22" fill="#06b6d4"/>
+    <rect x="54" y="412.64" width="192" height="19.68" fill="#06b6d4"/>
+    <text x="150" y="440.24" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">2 L</text>
+  </g></g>
+      <rect x="330" y="672" width="140" height="44" rx="22" fill="#ffffff" stroke="#51cce1" stroke-width="2"/>
+      <text x="400" y="701" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="800" fill="#0f1f1a">2 L</text><defs><filter id="blur95" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="660" cy="646" rx="139.81132075471697" ry="16.777358490566037" fill="#035b6a" opacity="0.22" filter="url(#blur95)"/><g transform="translate(512.8 133.7) scale(0.9811)"><defs><linearGradient id="body96" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0595ae"/>
+      <stop offset="0.35" stop-color="#24bfd9"/>
+      <stop offset="0.65" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#05899f"/>
+    </linearGradient></defs>
+        <path d="M178 108 C176 52 262 50 262 150" fill="none" stroke="#0592aa" stroke-width="30" stroke-linecap="round"/>
+        <rect x="66" y="14" width="76" height="54" rx="12" fill="#0b4d3b"/>
+        <rect x="66" y="50" width="76" height="8" fill="#083a2c" opacity="0.5"/>
+        <path d="M74 66 L134 66 L140 104 L238 104 Q272 104 272 150 L272 470 Q272 516 228 516 L72 516 Q28 516 28 470 L28 150 Q28 110 70 104 Z" fill="url(#body96)"/>
+        <rect x="46" y="150" width="14" height="320" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="54" y="206" width="192" height="246" rx="22" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 216.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="235.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="76" x2="224" y1="248.2" y2="248.2" stroke="#51cce1" stroke-width="2"/>
+    <text x="150" y="276" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1f1a">Liquid</text><text x="150" y="308.4" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1f1a">Detergent</text>
+    <text x="150" y="348.8" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#0d6e89">Top &amp; Front Load</text>
+    <rect x="54" y="412.64" width="192" height="39.36" rx="22" fill="#06b6d4"/>
+    <rect x="54" y="412.64" width="192" height="19.68" fill="#06b6d4"/>
+    <text x="150" y="440.24" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">5 L</text>
+  </g></g>
+      <rect x="590" y="672" width="140" height="44" rx="22" fill="#ffffff" stroke="#51cce1" stroke-width="2"/>
+      <text x="660" y="701" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="800" fill="#0f1f1a">5 L</text></svg>

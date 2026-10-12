@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Lemon Fresh Dishwash Liquid highlights"><title>Lemon Fresh Dishwash Liquid highlights</title><defs><linearGradient id="bg4" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fcf4db"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient></defs>
+    <rect width="800" height="800" fill="url(#bg4)"/>
+    <circle cx="85.7" cy="184.5" r="42.9" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="209.7" cy="136.0" r="10.9" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="157.7" cy="121.4" r="46.3" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="104.8" cy="407.7" r="13.1" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="225.9" cy="621.3" r="40.9" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/><circle cx="276.0" cy="389.0" r="31.8" fill="#ffffff" fill-opacity="0.55" stroke="#f2c94c" stroke-opacity="0.22" stroke-width="2"/>
+    <defs><filter id="blur5" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="230" cy="696" rx="150.56603773584905" ry="18.067924528301884" fill="#796526" opacity="0.22" filter="url(#blur5)"/><g transform="translate(71.5 144.8) scale(1.0566)"><defs><linearGradient id="body6" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#c6a53e"/>
+      <stop offset="0.35" stop-color="#f4cf61"/>
+      <stop offset="0.65" stop-color="#f2c94c"/>
+      <stop offset="1" stop-color="#b69739"/>
+    </linearGradient></defs>
+        <rect x="134" y="-12" width="32" height="20" rx="7" fill="#083a2c"/>
+        <rect x="108" y="2" width="84" height="62" rx="14" fill="#0b4d3b"/>
+        <rect x="108" y="44" width="84" height="8" fill="#083a2c" opacity="0.5"/>
+        <rect x="118" y="62" width="64" height="20" rx="4" fill="#d5b143"/>
+        <path d="M120 78 C120 104 40 106 40 152 L40 470 Q40 516 86 516 L214 516 Q260 516 260 470 L260 152 C260 106 180 104 180 78 Z" fill="url(#body6)"/>
+        <rect x="58" y="160" width="14" height="300" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="62" y="196" width="176" height="240" rx="22" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 206.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="225.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="84" x2="216" y1="238.2" y2="238.2" stroke="#f6d982" stroke-width="2"/>
+    <text x="150" y="266" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f1f1a">Dishwash</text>
+    <text x="150" y="306.4" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#2d9641">Lemon Fresh</text>
+    <rect x="62" y="397.6" width="176" height="38.4" rx="22" fill="#f2c94c"/>
+    <rect x="62" y="397.6" width="176" height="19.2" fill="#f2c94c"/>
+    <text x="150" y="424.72" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L</text>
+  </g></g>
+    <rect x="440" y="170" width="330" height="526" rx="28" fill="#ffffff" opacity="0.94"/>
+    <g transform="translate(468 200) scale(1.0833333333333333)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="504" y="222" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3" fill="#0b4d3b">KEY FEATURES</text>
+    <line x1="468" x2="742" y1="246" y2="246" stroke="#f7df94" stroke-width="2"/>
+    <g>
+      <circle cx="476" cy="293" r="15" fill="#f2c94c"/>
+      <path d="M469 293 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Works up a rich lather</text><text x="504" y="330" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">with a small amount</text>
+    </g><g>
+      <circle cx="476" cy="387" r="15" fill="#f2c94c"/>
+      <path d="M469 387 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="394" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Fresh lemon fragrance</text>
+    </g><g>
+      <circle cx="476" cy="451" r="15" fill="#f2c94c"/>
+      <path d="M469 451 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="458" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Easy-dispense flip-top</text><text x="504" y="488" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">cap</text>
+    </g><g>
+      <circle cx="476" cy="545" r="15" fill="#f2c94c"/>
+      <path d="M469 545 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="552" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Value refill sizes</text><text x="504" y="582" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">available</text>
+    </g></svg>

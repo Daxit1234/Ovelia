@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Car Care Kit highlights"><title>Car Care Kit highlights</title><defs><linearGradient id="bg156" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d2dcf7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient></defs>
+    <rect width="800" height="800" fill="url(#bg156)"/>
+    <circle cx="182.1" cy="485.0" r="35.8" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/><circle cx="60.1" cy="363.8" r="26.9" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/><circle cx="357.2" cy="543.4" r="25.4" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/><circle cx="408.3" cy="10.3" r="46.9" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/><circle cx="388.4" cy="311.4" r="31.4" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/><circle cx="52.5" cy="433.2" r="32.7" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/>
+    <defs><filter id="blur157" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="230" cy="696" rx="150.56603773584905" ry="18.067924528301884" fill="#0f276c" opacity="0.22" filter="url(#blur157)"/><g transform="translate(71.5 144.8) scale(1.0566)"><g transform="translate(20 54) scale(0.55)"><defs><linearGradient id="body159" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#1840b1"/>
+      <stop offset="0.35" stop-color="#3863dd"/>
+      <stop offset="0.65" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#163ba2"/>
+    </linearGradient></defs>
+        <rect x="116" y="14" width="68" height="58" rx="12" fill="#0b4d3b"/>
+        <rect x="116" y="54" width="68" height="8" fill="#083a2c" opacity="0.5"/>
+        <path d="M112 70 L188 70 L190 96 C258 102 276 132 276 176 L276 470 Q276 516 230 516 L70 516 Q24 516 24 470 L24 176 C24 132 42 102 110 96 Z" fill="url(#body159)"/>
+        <rect x="30" y="250" width="16" height="150" rx="8" fill="#163ba2" opacity="0.6"/>
+        <rect x="254" y="250" width="16" height="150" rx="8" fill="#143797" opacity="0.6"/>
+        <rect x="52" y="180" width="14" height="300" rx="7" fill="#ffffff" opacity="0.32"/>
+        </g><g transform="translate(150 54) scale(0.55)"><defs><linearGradient id="body160" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ae8313"/>
+      <stop offset="0.35" stop-color="#d9ab33"/>
+      <stop offset="0.65" stop-color="#d4a017"/>
+      <stop offset="1" stop-color="#9f7811"/>
+    </linearGradient></defs>
+        <rect x="96" y="132" width="108" height="82" rx="14" fill="#0b4d3b"/>
+        <rect x="96" y="190" width="108" height="10" fill="#083a2c" opacity="0.5"/>
+        <rect x="40" y="208" width="220" height="308" rx="34" fill="url(#body160)"/>
+        <rect x="58" y="230" width="14" height="250" rx="7" fill="#ffffff" opacity="0.32"/>
+        </g>
+    <rect x="6" y="292" width="288" height="224" rx="26" fill="#0b4d3b"/>
+    <rect x="6" y="292" width="288" height="30" rx="14" fill="#083a2c"/>
+    <g transform="translate(77 346) scale(1.0833333333333333)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#ffffff"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="111" y="368" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="5" fill="#ffffff">OVELIA</text>
+    <text x="150" y="420" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff">Car Care Kit</text>
+    <text x="150" y="452" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" fill="#d8aa2e">Wash + Polish</text>
+    <rect x="96" y="472" width="108" height="30" rx="15" fill="#d4a017"/>
+    <text x="150" y="493" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="800" fill="#0f1f1a">Kit of 2</text></g>
+    <rect x="440" y="170" width="330" height="368" rx="28" fill="#ffffff" opacity="0.94"/>
+    <g transform="translate(468 200) scale(1.0833333333333333)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="504" y="222" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3" fill="#0b4d3b">KEY FEATURES</text>
+    <line x1="468" x2="742" y1="246" y2="246" stroke="#7795e8" stroke-width="2"/>
+    <g>
+      <circle cx="476" cy="293" r="15" fill="#1d4ed8"/>
+      <path d="M469 293 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Wash and polish in one</text><text x="504" y="330" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">kit</text>
+    </g><g>
+      <circle cx="476" cy="387" r="15" fill="#1d4ed8"/>
+      <path d="M469 387 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="394" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Lower price than buying</text><text x="504" y="424" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">separately</text>
+    </g></svg>

@@ -1,26 +1,219 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-display);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Ovelia brand palette */
+  --color-brand-green: #0b4d3b;
+  --color-brand-green-dark: #073829;
+  --color-brand-teal: #0e8f80;
+  --color-brand-teal-light: #5ec9b9;
+  --color-brand-blue: #3b82f6;
+  --color-brand-sky: #eaf2fe;
+  --color-brand-mint: #eef7f3;
+  --color-brand-sun: #f2c94c;
+  --color-brand-ink: #0f1f1a;
+
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-rise: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f1f1a;
+  --card: #ffffff;
+  --card-foreground: #0f1f1a;
+  --popover: #ffffff;
+  --popover-foreground: #0f1f1a;
+  --primary: #0b4d3b;
+  --primary-foreground: #ffffff;
+  --secondary: #e8f5ef;
+  --secondary-foreground: #0b4d3b;
+  --muted: #f3f7f5;
+  --muted-foreground: #56665f;
+  --accent: #e6f4f1;
+  --accent-foreground: #0b4d3b;
+  --destructive: #d92d20;
+  --border: #e1ebe6;
+  --input: #d3e2da;
+  --ring: #0e8f80;
+  --chart-1: #0b4d3b;
+  --chart-2: #0e8f80;
+  --chart-3: #3b82f6;
+  --chart-4: #e0a800;
+  --chart-5: #8b7ae0;
+  --radius: 0.75rem;
+  --sidebar: #f6faf8;
+  --sidebar-foreground: #0f1f1a;
+  --sidebar-primary: #0b4d3b;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e6f4f1;
+  --sidebar-accent-foreground: #0b4d3b;
+  --sidebar-border: #e1ebe6;
+  --sidebar-ring: #0e8f80;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv11", "ss01";
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading tracking-tight;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ring;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.18em] text-brand-teal;
+  }
+  .section-title {
+    @apply font-heading text-2xl font-bold tracking-tight text-brand-ink sm:text-3xl;
+  }
+  .prose-ovelia {
+    @apply max-w-none text-[15px] leading-7 text-foreground/85;
+  }
+  .prose-ovelia h2 {
+    @apply mt-10 mb-3 text-xl font-bold text-brand-ink first:mt-0;
+  }
+  .prose-ovelia h3 {
+    @apply mt-6 mb-2 text-lg font-semibold text-brand-ink;
+  }
+  .prose-ovelia p {
+    @apply my-3;
+  }
+  .prose-ovelia ul,
+  .prose-ovelia ol {
+    @apply my-3 space-y-1.5 pl-5;
+  }
+  .prose-ovelia ul {
+    @apply list-disc;
+  }
+  .prose-ovelia ol {
+    @apply list-decimal;
+  }
+  .prose-ovelia a {
+    @apply font-medium text-brand-teal underline underline-offset-4 hover:text-brand-green;
+  }
+  .prose-ovelia .placeholder {
+    @apply rounded bg-amber-100 px-1 text-amber-900;
+  }
+  .bg-hero {
+    background:
+      radial-gradient(1200px 500px at 85% 10%, rgb(94 201 185 / 0.25), transparent 60%),
+      radial-gradient(900px 500px at 0% 100%, rgb(59 130 246 / 0.12), transparent 60%),
+      linear-gradient(180deg, #f3faf7 0%, #ffffff 100%);
+  }
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition:
+      opacity 0.7s cubic-bezier(0.2, 0.7, 0.2, 1),
+      transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .reveal[data-visible="true"] {
+    opacity: 1;
+    transform: none;
+  }
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+  }
 }

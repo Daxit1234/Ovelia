@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Car Shampoo highlights"><title>Car Shampoo highlights</title><defs><linearGradient id="bg111" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d2dcf7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient></defs>
+    <rect width="800" height="800" fill="url(#bg111)"/>
+    <circle cx="244.5" cy="121.0" r="25.2" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/><circle cx="218.1" cy="80.3" r="45.8" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/><circle cx="342.5" cy="144.8" r="36.6" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/><circle cx="372.5" cy="581.2" r="13.7" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/><circle cx="63.2" cy="376.1" r="30.8" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/><circle cx="9.6" cy="436.1" r="27.7" fill="#ffffff" fill-opacity="0.55" stroke="#1d4ed8" stroke-opacity="0.22" stroke-width="2"/>
+    <defs><filter id="blur112" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="230" cy="696" rx="150.56603773584905" ry="18.067924528301884" fill="#0f276c" opacity="0.22" filter="url(#blur112)"/><g transform="translate(71.5 144.8) scale(1.0566)"><defs><linearGradient id="body113" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#1840b1"/>
+      <stop offset="0.35" stop-color="#3863dd"/>
+      <stop offset="0.65" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#163ba2"/>
+    </linearGradient></defs>
+        <rect x="116" y="14" width="68" height="58" rx="12" fill="#0f172a"/>
+        <rect x="116" y="54" width="68" height="8" fill="#0b1120" opacity="0.5"/>
+        <path d="M112 70 L188 70 L190 96 C258 102 276 132 276 176 L276 470 Q276 516 230 516 L70 516 Q24 516 24 470 L24 176 C24 132 42 102 110 96 Z" fill="url(#body113)"/>
+        <rect x="30" y="250" width="16" height="150" rx="8" fill="#163ba2" opacity="0.6"/>
+        <rect x="254" y="250" width="16" height="150" rx="8" fill="#143797" opacity="0.6"/>
+        <rect x="52" y="180" width="14" height="300" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="58" y="200" width="184" height="248" rx="22" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 210.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="229.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="80" x2="220" y1="242.2" y2="242.2" stroke="#6183e4" stroke-width="2"/>
+    <text x="150" y="270" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="800" fill="#0f1f1a">Car Shampoo</text>
+    <text x="150" y="302.84000000000003" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.26" font-weight="600" fill="#0e1628">Foam Wash</text>
+    <rect x="58" y="408.32" width="184" height="39.68" rx="22" fill="#1d4ed8"/>
+    <rect x="58" y="408.32" width="184" height="19.84" fill="#1d4ed8"/>
+    <text x="150" y="436.08000000000004" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L</text>
+  </g></g>
+    <rect x="440" y="170" width="330" height="432" rx="28" fill="#ffffff" opacity="0.94"/>
+    <g transform="translate(468 200) scale(1.0833333333333333)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="504" y="222" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3" fill="#0b4d3b">KEY FEATURES</text>
+    <line x1="468" x2="742" y1="246" y2="246" stroke="#7795e8" stroke-width="2"/>
+    <g>
+      <circle cx="476" cy="293" r="15" fill="#1d4ed8"/>
+      <path d="M469 293 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Concentrated — a little</text><text x="504" y="330" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">goes a long way</text>
+    </g><g>
+      <circle cx="476" cy="387" r="15" fill="#1d4ed8"/>
+      <path d="M469 387 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="394" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">Rich foam for hand</text><text x="504" y="424" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">washing</text>
+    </g><g>
+      <circle cx="476" cy="481" r="15" fill="#1d4ed8"/>
+      <path d="M469 481 l5 5 l9 -10" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="504" y="488" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#0f1f1a">For cars and bikes</text>
+    </g></svg>

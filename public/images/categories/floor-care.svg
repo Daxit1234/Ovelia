@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Floor &amp; Surfaces"><title>Floor &amp; Surfaces</title><defs><radialGradient id="bg171" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#dcd7f7"/>
+      <stop offset="1" stop-color="#f3f1fc"/>
+    </radialGradient></defs>
+    <rect width="600" height="600" fill="url(#bg171)"/>
+    <circle cx="321.5" cy="417.4" r="36.0" fill="#ffffff" fill-opacity="0.55" stroke="#9b8ce8" stroke-opacity="0.22" stroke-width="2"/><circle cx="292.1" cy="473.5" r="12.7" fill="#ffffff" fill-opacity="0.55" stroke="#9b8ce8" stroke-opacity="0.22" stroke-width="2"/><circle cx="178.1" cy="368.6" r="16.7" fill="#ffffff" fill-opacity="0.55" stroke="#9b8ce8" stroke-opacity="0.22" stroke-width="2"/><circle cx="229.3" cy="302.5" r="26.0" fill="#ffffff" fill-opacity="0.55" stroke="#9b8ce8" stroke-opacity="0.22" stroke-width="2"/><circle cx="95.8" cy="475.3" r="18.3" fill="#ffffff" fill-opacity="0.55" stroke="#9b8ce8" stroke-opacity="0.22" stroke-width="2"/><circle cx="27.5" cy="127.1" r="47.4" fill="#ffffff" fill-opacity="0.55" stroke="#9b8ce8" stroke-opacity="0.22" stroke-width="2"/><circle cx="274.6" cy="417.7" r="15.2" fill="#ffffff" fill-opacity="0.55" stroke="#9b8ce8" stroke-opacity="0.22" stroke-width="2"/>
+    <defs><filter id="blur172" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="395" cy="551" rx="96.79245283018867" ry="11.61509433962264" fill="#0a5c53" opacity="0.22" filter="url(#blur172)"/><g transform="translate(293.1 194.5) scale(0.6792)"><defs><linearGradient id="body173" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#109788"/>
+      <stop offset="0.35" stop-color="#30c1b1"/>
+      <stop offset="0.65" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#0f8a7d"/>
+    </linearGradient></defs>
+        <path d="M82 66 L198 66 Q214 66 214 82 L214 120 L124 120 L124 102 L84 102 Q70 102 70 90 L70 78 Q70 66 82 66 Z" fill="#0b4d3b"/>
+        <rect x="56" y="80" width="20" height="12" rx="4" fill="#083a2c"/>
+        <path d="M150 118 Q128 150 138 190 L152 190 Q146 152 168 124 Z" fill="#083a2c"/>
+        <rect x="120" y="118" width="64" height="40" rx="6" fill="#083a2c"/>
+        <path d="M118 156 L182 156 L182 176 C238 186 250 214 250 252 L250 474 Q250 516 210 516 L90 516 Q50 516 50 474 L50 252 C50 214 62 186 118 176 Z" fill="url(#body173)"/>
+        <rect x="66" y="250" width="14" height="230" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="66" y="262" width="168" height="214" rx="21" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 272.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="291.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="88" x2="212" y1="304.2" y2="304.2" stroke="#5bcdc1" stroke-width="2"/>
+    <text x="150" y="332" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="800" fill="#0f1f1a">Multipurpose</text>
+    <text x="150" y="360.52" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11.78" font-weight="600" fill="#0e7069">Surface Cleaner</text>
+    <rect x="66" y="441.76" width="168" height="34.24" rx="21" fill="#14b8a6"/>
+    <rect x="66" y="441.76" width="168" height="17.12" fill="#14b8a6"/>
+    <text x="150" y="466.8" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L</text>
+  </g></g><defs><filter id="blur174" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+    <ellipse cx="215" cy="551" rx="112.9245283018868" ry="13.550943396226415" fill="#4e4674" opacity="0.22" filter="url(#blur174)"/><g transform="translate(96.1 136.1) scale(0.7925)"><defs><linearGradient id="body175" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7f73be"/>
+      <stop offset="0.35" stop-color="#a79aeb"/>
+      <stop offset="0.65" stop-color="#9b8ce8"/>
+      <stop offset="1" stop-color="#7469ae"/>
+    </linearGradient></defs>
+        <path d="M178 108 C176 52 262 50 262 150" fill="none" stroke="#7c70ba" stroke-width="30" stroke-linecap="round"/>
+        <rect x="66" y="14" width="76" height="54" rx="12" fill="#0b4d3b"/>
+        <rect x="66" y="50" width="76" height="8" fill="#083a2c" opacity="0.5"/>
+        <path d="M74 66 L134 66 L140 104 L238 104 Q272 104 272 150 L272 470 Q272 516 228 516 L72 516 Q28 516 28 470 L28 150 Q28 110 70 104 Z" fill="url(#body175)"/>
+        <rect x="46" y="150" width="14" height="320" rx="7" fill="#ffffff" opacity="0.32"/>
+        <g>
+    <rect x="54" y="206" width="192" height="246" rx="22" fill="#ffffff" opacity="0.97"/>
+    <g transform="translate(91.5 216.7) scale(0.8624999999999999)">
+    <path d="M12 1.5C12 1.5 4 10.2 4 15a8 8 0 0 0 16 0c0-4.8-8-13.5-8-13.5Z" fill="#0b4d3b"/>
+    <path d="M8.2 16.2c2.6-.2 5.6-1.8 7-5.4.3 3.8-1.8 7.2-5.3 7.4-.9.1-1.5-.6-1.7-2Z" fill="#ffffff" opacity="0.92"/>
+  </g>
+    <text x="118.5" y="235.6" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3.96" fill="#0b4d3b">OVELIA</text>
+    <line x1="76" x2="224" y1="248.2" y2="248.2" stroke="#b9afef" stroke-width="2"/>
+    <text x="150" y="276" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#0f1f1a">Floor</text><text x="150" y="312.72" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#0f1f1a">Cleaner</text>
+    <text x="150" y="357.44" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#5647ba">Lavender Bloom</text>
+    <rect x="54" y="412.64" width="192" height="39.36" rx="22" fill="#9b8ce8"/>
+    <rect x="54" y="412.64" width="192" height="19.68" fill="#9b8ce8"/>
+    <text x="150" y="440.24" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">1 L</text>
+  </g></g></svg>
