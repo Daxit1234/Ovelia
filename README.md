@@ -127,3 +127,5 @@ src/components         UI components             scripts/           local DB, se
 tests/unit             pricing, money, CSV…      tests/integration  stock safety on a real MongoDB
 tests/e2e              Playwright browser tests
 ```
+#   O v e l i a  
+ 
