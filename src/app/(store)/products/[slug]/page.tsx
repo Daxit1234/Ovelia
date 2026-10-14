@@ -15,18 +15,20 @@ import { ProductGrid } from "@/components/store/product-card";
 import { SectionHeading } from "@/components/store/home/sections";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { getProductBySlug, getProductSitemapEntries, getProductsByIds, getRelatedProducts } from "@/lib/data/catalog";
+import { getProductBySlug, getProductsByIds, getRelatedProducts } from "@/lib/data/catalog";
 import { getPublicSettings } from "@/lib/data/content";
 import { siteUrl } from "@/lib/env";
 import { formatINR } from "@/lib/money";
 
-export async function generateStaticParams() {
-  const products = await getProductSitemapEntries();
-  return products.length ? products.map((p) => ({ slug: p.slug })) : [{ slug: "__none__" }];
+export function generateStaticParams() {
+  // Cache Components requires at least one param for dynamic routes. Keep this
+  // as a placeholder so the build does not need a live database connection.
+  return [{ slug: "__placeholder__" }];
 }
 
 export async function generateMetadata({ params }: PageProps<"/products/[slug]">): Promise<Metadata> {
   const { slug } = await params;
+  if (slug === "__placeholder__") return { title: "Product not found", robots: { index: false } };
   const product = await getProductBySlug(slug);
   if (!product) return { title: "Product not found", robots: { index: false } };
   const title = product.seo.title || product.name;
@@ -122,6 +124,7 @@ function DetailTabs({ product, shippingSummary, returnsSummary }: { product: Non
 
 async function ProductContent({ params }: Pick<PageProps<"/products/[slug]">, "params">) {
   const { slug } = await params;
+  if (slug === "__placeholder__") notFound();
   const product = await getProductBySlug(slug);
   if (!product) notFound();
   const [settings, related, together] = await Promise.all([

@@ -2,16 +2,17 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { ShopSkeleton, ShopView } from "@/components/store/shop/shop-view";
-import { getCategories, getCategoryBySlug, parseShopQuery } from "@/lib/data/catalog";
+import { getCategoryBySlug, parseShopQuery } from "@/lib/data/catalog";
 
-export async function generateStaticParams() {
-  const categories = await getCategories();
-  const slugs = categories.map((c) => ({ slug: c.slug }));
-  return slugs.length ? slugs : [{ slug: "__none__" }];
+export function generateStaticParams() {
+  // Cache Components requires at least one param for dynamic routes. Keep this
+  // as a placeholder so the build does not need a live database connection.
+  return [{ slug: "__placeholder__" }];
 }
 
 export async function generateMetadata({ params }: PageProps<"/categories/[slug]">): Promise<Metadata> {
   const { slug } = await params;
+  if (slug === "__placeholder__") return { title: "Category not found" };
   const category = await getCategoryBySlug(slug);
   if (!category) return { title: "Category not found" };
   return {
@@ -24,6 +25,7 @@ export async function generateMetadata({ params }: PageProps<"/categories/[slug]
 
 async function CategoryResults({ params, searchParams }: PageProps<"/categories/[slug]">) {
   const { slug } = await params;
+  if (slug === "__placeholder__") notFound();
   const category = await getCategoryBySlug(slug);
   if (!category) notFound();
   const query = parseShopQuery(await searchParams, category.slug);

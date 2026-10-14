@@ -64,14 +64,16 @@ export async function storeImage(file: File, folder: "products" | "categories" |
   if (getEnv().NODE_ENV === "production") {
     throw new AppError("Image storage is not configured. Add Cloudinary credentials to enable uploads in production.", "STORAGE_DISABLED", 503);
   }
-  // Development fallback: write into public/uploads (not for serverless production).
+  // Development fallback: keep filesystem writes inside one statically known
+  // directory so Next.js can trace this route without treating the project
+  // root as a runtime dependency.
   const now = new Date();
-  const relDir = path.posix.join("uploads", folder, `${now.getFullYear()}`, String(now.getMonth() + 1).padStart(2, "0"));
-  const name = `${randomBytes(12).toString("hex")}.${ALLOWED_IMAGE_TYPES[type]}`;
-  const absDir = path.join(process.cwd(), "public", ...relDir.split("/"));
-  await mkdir(absDir, { recursive: true });
-  await writeFile(path.join(absDir, name), buffer);
-  return { url: `/${relDir}/${name}`, publicId: null, width: null, height: null };
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const name = `${folder}-${now.getFullYear()}-${month}-${randomBytes(12).toString("hex")}.${ALLOWED_IMAGE_TYPES[type]}`;
+  const uploadDir = path.join("public", "uploads");
+  await mkdir(uploadDir, { recursive: true });
+  await writeFile(path.join(uploadDir, name), buffer);
+  return { url: `/uploads/${name}`, publicId: null, width: null, height: null };
 }
 
 export async function deleteStoredImage(publicId: string | null | undefined): Promise<void> {
